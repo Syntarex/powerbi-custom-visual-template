@@ -23,7 +23,7 @@ In der [/pbiviz.json](./pbiviz.json) werden allgemeine Metadaten zum Custom Visu
 Folgende Werte müssen angepasst werden:
 
 -   `displayName`: Der Name des Visuals, welcher dem Benutzer angezeigt wird.
--   `guid`: Eine eindeutige ID. Kann auf [guid.one](https://guid.one) generiert werden. **Achtung: Bindestriche müssen entfernt werden.**
+-   `guid`: Eine eindeutige ID. Kann auf [guid.one](https://guid.one) generiert werden. Empfohlen ist folgendes Format: `<visualName><32characterguid>`, zum Beispiel: `myVisuala64b54926dcc4ebab63fe65c5db74bb6` **Achtung: Bindestriche sind nicht erlaubt.**
 -   `description`: Eine kurze Beschreibung des Visuals.
 -   `author`: Informationen zu Deiner Person.
 -   `assets`: Legt das Icon des Visuals fest. Standardmäßig ist dieses unter [/assets/icon.png](./assets/icon.png) zu finden. Gute Icons können auf [Material Icons](https://fonts.google.com/icons?icon.set=Material+Icons) als `.png` heruntergeladen werden.

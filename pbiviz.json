@@ -1,8 +1,8 @@
 {
     "visual": {
-        "name": "powerbi-custom-visual",
+        "name": "myVisual",
         "displayName": "Custom Visual",
-        "guid": "a64b54926dcc4ebab63fe65c5db74bb6",
+        "guid": "myVisuala64b54926dcc4ebab63fe65c5db74bb6",
         "visualClassName": "Visual",
         "version": "1.0.0",
         "description": "DESCRIBE ME",
