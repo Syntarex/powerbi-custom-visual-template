@@ -1,0 +1,19 @@
+{
+    "visual": {
+        "name": "powerbi-custom-visual",
+        "displayName": "Custom Visual",
+        "guid": "a64b54926dcc4ebab63fe65c5db74bb6",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "DESCRIBE ME",
+        "supportUrl": "https://lansco.de",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "5.1.0",
+    "author": { "name": "Dominic Fuchs", "email": "dominic.fuchs@lansco.de" },
+    "assets": { "icon": "assets/icon.png" },
+    "externalJS": [],
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

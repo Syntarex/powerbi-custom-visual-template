@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "target": "es6",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "importHelpers": true,
+        "outDir": "./.tmp/build/",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "declaration": true,
+        "lib": ["es2015", "dom"],
+        "types": ["react", "react-dom"],
+        "strictNullChecks": true
+    },
+    "files": ["./src/visual.tsx"]
+}
