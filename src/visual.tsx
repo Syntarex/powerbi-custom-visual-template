@@ -19,7 +19,12 @@ export class Visual implements IVisual {
     /** Navigate the user to the given url. */
     public static goToUrl: (url: string) => void;
 
-    constructor(options: VisualConstructorOptions) {
+    constructor(options?: VisualConstructorOptions) {
+        // Fixes stupid shitty bug: https://github.com/microsoft/PowerBI-visuals-tools/issues/428
+        if (!options) {
+            return;
+        }
+
         // Initiate react
         this.reactRoot = createRoot(options.element);
 
